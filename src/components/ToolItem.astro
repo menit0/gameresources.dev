@@ -1,0 +1,24 @@
+---
+const { name, url } = Astro.props;
+---
+
+<a href={url}>
+<img src=`https://www.google.com/s2/favicons?domain=${url}&sz=64` width="16" height="16"/>
+{name}
+</a>
+
+
+<style>
+    a {
+        display: flex;
+        gap: 8px;
+        align-items: center;
+        color: grey;
+        text-decoration: none;
+    }
+
+    a:hover {
+        color: red;
+        text-decoration-line: underline;
+    }
+</style>

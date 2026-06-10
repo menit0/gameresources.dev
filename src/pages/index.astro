@@ -1,7 +1,7 @@
 ---
 import { getCollection } from 'astro:content';
 import Layout from '../layouts/Layout.astro';
-import type { Tool } from 'src/interfaces/Tool';
+import ToolItem from "@components/ToolItem.astro";
 
 const engines = await getCollection("engines")
 
@@ -10,7 +10,7 @@ const engines = await getCollection("engines")
 <Layout>
 	{
 		engines.map((engine) => {
-			return <p>{engine.data.name}</p>
+			return <ToolItem name={engine.data.name} url={engine.data.url}/>
 		})
 	}
 </Layout>
