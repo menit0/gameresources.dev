@@ -1,0 +1,9 @@
+:root {
+  --bg-page: black;
+  --color-border: rgba(128, 128, 128, 0.185);
+  --color-text-main: white;
+  --color-text-muted: color(srgb 0.929412 0.929412 0.929412 / 0.6);
+
+  color: var(--color-text-main);
+  background-color: var(--bg-page);
+}
