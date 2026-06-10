@@ -1,4 +1,29 @@
 [
   { "id": "unity", "name": "Unity", "url": "https://unity.com" },
-  { "id": "godot", "name": "Godot", "url": "https://godotengine.org" }
+  { "id": "godot", "name": "Godot", "url": "https://godotengine.org" },
+  {
+    "id": "unreal-engine",
+    "name": "Unreal Engine",
+    "url": "https://www.unrealengine.com/"
+  },
+  {
+    "id": "gamemaker",
+    "name": "GameMaker",
+    "url": "https://www.gamemaker.io/"
+  },
+  {
+    "id": "rpg-maker",
+    "name": "RPG Maker",
+    "url": "https://www.rpgmakerweb.com/"
+  },
+  {
+    "id": "gdevelop",
+    "name": "GDevelop",
+    "url": "https://www.gdevelop-app.com/"
+  },
+  {
+    "id": "construct",
+    "name": "Construct",
+    "url": "https://www.construct.net/"
+  }
 ]
