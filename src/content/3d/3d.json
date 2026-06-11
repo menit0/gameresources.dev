@@ -1,0 +1,18 @@
+[
+  { "id": "blender", "name": "Blender", "url": "https://blender.org" },
+  {
+    "id": "magica-voxel",
+    "name": "MagicaVoxel",
+    "url": "https://ephtracy.github.io/"
+  },
+  {
+    "id": "zbrush",
+    "name": "ZBrush",
+    "url": "https://www.maxon.net/zbrush"
+  },
+  {
+    "id": "substance-3d-painter",
+    "name": "Substance 3D Painter",
+    "url": "https://www.adobe.com/products/substance3d-painter"
+  }
+]
