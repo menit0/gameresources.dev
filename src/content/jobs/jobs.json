@@ -1,0 +1,32 @@
+[
+  {
+    "id": "linkedin",
+    "name": "LinkedIn",
+    "url": "https://linkedin.com"
+  },
+  {
+    "id": "work-with-indies",
+    "name": "Work With Indies",
+    "url": "https://workwithindies.com"
+  },
+  {
+    "id": "hitmarker",
+    "name": "Hitmarker",
+    "url": "https://hitmarket.net"
+  },
+  {
+    "id": "games-jobs-direct",
+    "name": "Games Jobs Direct",
+    "url": "https://gamesjobsdirect.com"
+  },
+  {
+    "id": "remote-game-jobs",
+    "name": "Remote Game Jobs",
+    "url": "https://remotegamejobs.com"
+  },
+  {
+    "id": "grackle-hq",
+    "name": "Grackle HQ",
+    "url": "https://gracklehq.com"
+  }
+]

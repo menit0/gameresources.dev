@@ -1,0 +1,18 @@
+[
+  { "id": "figma", "name": "Figma", "url": "https://figma.com" },
+  {
+    "id": "interface-in-game",
+    "name": "Interface In Game",
+    "url": "https://interfaceingame.com/"
+  },
+  {
+    "id": "penpot",
+    "name": "Penpot",
+    "url": "https://www.penpot.app/"
+  },
+  {
+    "id": "game-ui-database",
+    "name": "Game UI Database",
+    "url": "https://www.gameuidatabase.com"
+  }
+]

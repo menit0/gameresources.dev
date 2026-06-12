@@ -1,0 +1,24 @@
+[
+  { "id": "notion", "name": "Notion", "url": "https://notion.so" },
+  { "id": "miro", "name": "Miro", "url": "https://miro.com" },
+  {
+    "id": "trello",
+    "name": "Trello",
+    "url": "https://www.trello.com"
+  },
+  {
+    "id": "hacknplan",
+    "name": "HacknPlan",
+    "url": "https://www.hacknplan.com"
+  },
+  {
+    "id": "obsidian",
+    "name": "Obsidian",
+    "url": "https://www.obsidian.md"
+  },
+  {
+    "id": "linear",
+    "name": "Linear",
+    "url": "https://www.linear.app"
+  }
+]

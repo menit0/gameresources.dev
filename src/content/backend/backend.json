@@ -1,0 +1,29 @@
+[
+  { "id": "supabase", "name": "Supabase", "url": "https://supabase.com" },
+  { "id": "nakama", "name": "Nakama", "url": "https://heroiclabs.com/nakama" },
+  {
+    "id": "photon-engine",
+    "name": "Photon Engine",
+    "url": "https://www.photonengine.com/"
+  },
+  {
+    "id": "playfab",
+    "name": "PlayFab",
+    "url": "https://www.playfab.com/"
+  },
+  {
+    "id": "lootlocker",
+    "name": "LootLocker",
+    "url": "https://lootlocker.com/"
+  },
+  {
+    "id": "firebase",
+    "name": "Firebase",
+    "url": "https://firebase.google.com/"
+  },
+  {
+    "id": "mirror",
+    "name": "Mirror",
+    "url": "https://mirror-networking.com"
+  }
+]

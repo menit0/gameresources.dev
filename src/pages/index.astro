@@ -1,38 +1,48 @@
 ---
-import { getCollection } from 'astro:content';
-import Layout from '../layouts/Layout.astro';
-import ToolItem from "@components/ToolItem.astro";
+import { getCollection } from "astro:content";
+import Layout from "../layouts/Layout.astro";
+import ToolSection from "@components/ToolSection.astro";
 
-const engines = await getCollection("engines")
-
+const engines = await getCollection("engines");
+const threed = await getCollection("threed");
+const assets = await getCollection("assets");
+const audio = await getCollection("audio");
+const backend = await getCollection("backend");
+const ui = await getCollection("ui");
+const organization = await getCollection("organization");
+const marketing = await getCollection("marketing");
+const twod = await getCollection("twod");
+const code = await getCollection("code");
+const media = await getCollection("media");
+const jobs = await getCollection("jobs");
 ---
 
 <Layout>
   <div class="grid">
-  <section>
-    <h2>Game Engines</h2>
-    <ul>
-	{
-		engines.map((engine) => {
-			return <li><ToolItem name={engine.data.name} url={engine.data.url}/></li>
-		})
-	}
-  </ul>
-  </section>
+    <ToolSection title="Engines & Frameworks" tools={engines} />
 
-  <section>
-    <h2>Game Engines</h2>
-    <ul>
-	{
-		engines.map((engine) => {
-			return <li><ToolItem name={engine.data.name} url={engine.data.url}/></li>
-		})
-	}
-  </ul>
-  </section>
+    <ToolSection title="3D" tools={threed} />
+
+    <ToolSection title="Assets" tools={assets} />
+    <ToolSection title="Audio" tools={audio} />
+
+    <ToolSection title="Backend & Multiplayer" tools={backend} />
+
+    <ToolSection title="UI" tools={ui} />
+
+    <ToolSection title="Organization" tools={organization} />
+
+    <ToolSection title="Marketing & PR" tools={marketing} />
+
+    <ToolSection title="2D" tools={twod} />
+
+    <ToolSection title="Code" tools={code} />
+
+    <ToolSection title="Media" tools={media} />
+
+    <ToolSection title="Jobs" tools={jobs} />
   </div>
 </Layout>
-
 
 <style>
   .grid {
@@ -53,26 +63,5 @@ const engines = await getCollection("engines")
     .grid {
       grid-template-columns: repeat(4, minmax(0, 1fr));
     }
-  }
-
-  section {
-    padding: 1.5rem;
-    border-right: 1px solid var(--color-border);
-    border-bottom: 1px solid var(--color-border);
-  }
-
-  section h2 {
-    font-size: 1rem;
-    font-weight: 400;
-    margin-top: 0;
-    margin-bottom: 1rem;
-  }
-  
-  ul {
-    list-style: none;
-    padding: 0;
-    margin: 0;
-    display: flex;
-    flex-direction: column;
   }
 </style>

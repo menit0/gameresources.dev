@@ -1,0 +1,14 @@
+[
+  { "id": "presskit", "name": "Presskit()", "url": "https://dopresskit.com" },
+  { "id": "keymailer", "name": "Keymailer", "url": "https://keymailer.co" },
+  {
+    "id": "terminals",
+    "name": "Terminals",
+    "url": "https://www.terminals.io"
+  },
+  {
+    "id": "impress",
+    "name": "Impress",
+    "url": "https://www.impress.games"
+  }
+]

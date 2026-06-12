@@ -13,6 +13,31 @@
   {
     "id": "substance-3d-painter",
     "name": "Substance 3D Painter",
-    "url": "https://www.adobe.com/products/substance3d-painter"
+    "url": "https://adobe.com/products/substance3d-painter"
+  },
+  {
+    "id": "blockbench",
+    "name": "Blockbench",
+    "url": "https://blockbench.net"
+  },
+  {
+    "id": "dust3d",
+    "name": "Dust3D",
+    "url": "https://dust3d.org"
+  },
+  {
+    "id": "picocad",
+    "name": "picoCAD",
+    "url": "https://picocad.net"
+  },
+  {
+    "id": "asset-forge",
+    "name": "Asset Forge",
+    "url": "https://kenney.nl/tools/asset-forge"
+  },
+  {
+    "id": "crocotile-3d",
+    "name": "Crocotile 3D",
+    "url": "https://www.crocotile3d.com"
   }
 ]

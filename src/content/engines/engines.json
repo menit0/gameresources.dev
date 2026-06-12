@@ -25,5 +25,30 @@
     "id": "construct",
     "name": "Construct",
     "url": "https://www.construct.net/"
+  },
+  {
+    "id": "defold",
+    "name": "Defold",
+    "url": "https://www.defold.com/"
+  },
+  {
+    "id": "phaser",
+    "name": "Phaser",
+    "url": "https://www.phaser.io/"
+  },
+  {
+    "id": "love",
+    "name": "LÖVE",
+    "url": "https://www.love2d.org/"
+  },
+  {
+    "id": "renpy",
+    "name": "Ren'Py",
+    "url": "https://www.renpy.org/"
+  },
+  {
+    "id": "cocos2d-x",
+    "name": "Cocos2d-x",
+    "url": "https://www.cocos.com/en/cocos2d-x"
   }
 ]

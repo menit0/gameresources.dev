@@ -1,0 +1,23 @@
+[
+  { "id": "freesound", "name": "Freesound", "url": "https://freesound.org" },
+  {
+    "id": "audacity",
+    "name": "Audacity",
+    "url": "https://audacityteam.org"
+  },
+  {
+    "id": "fmod",
+    "name": "FMOD",
+    "url": "https://fmod.com"
+  },
+  {
+    "id": "bfxr",
+    "name": "Bfxr",
+    "url": "https://bfxr.net"
+  },
+  {
+    "id": "sonniss",
+    "name": "Sonniss",
+    "url": "https://sonniss.com"
+  }
+]

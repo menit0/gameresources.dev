@@ -1,0 +1,43 @@
+[
+  { "id": "aseprite", "name": "Aseprite", "url": "https://aseprite.org" },
+  {
+    "id": "krita",
+    "name": "Krita",
+    "url": "https://krita.org"
+  },
+  {
+    "id": "spine",
+    "name": "Spine",
+    "url": "https://esotericsoftware.com"
+  },
+  {
+    "id": "texturepacker",
+    "name": "TexturePacker",
+    "url": "https://codeandweb.com/texturepacker"
+  },
+  {
+    "id": "affinity-designer",
+    "name": "Affinity Designer",
+    "url": "https://affinity.serif.com/designer"
+  },
+  {
+    "id": "inkscape",
+    "name": "Inkscape",
+    "url": "https://inkscape.org"
+  },
+  {
+    "id": "ldtk",
+    "name": "LDtk",
+    "url": "https://ldtk.io"
+  },
+  {
+    "id": "gimp",
+    "name": "Gimp",
+    "url": "https://gimp.org"
+  },
+  {
+    "id": "libresprite",
+    "name": "LibreSprite",
+    "url": "https://libresprite.github.io"
+  }
+]

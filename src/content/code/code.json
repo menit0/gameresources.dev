@@ -1,0 +1,38 @@
+[
+  {
+    "id": "visual-studio-code",
+    "name": "Visual Studio Code",
+    "url": "https://code.visualstudio.com"
+  },
+  { "id": "rider", "name": "Rider", "url": "https://www.jetbrains.com/rider" },
+  {
+    "id": "anchorpoint",
+    "name": "Anchorpoint",
+    "url": "https://www.anchorpoint.app"
+  },
+  {
+    "id": "fork",
+    "name": "Fork",
+    "url": "https://git-fork.com/"
+  },
+  {
+    "id": "zed",
+    "name": "Zed",
+    "url": "https://zed.dev/"
+  },
+  {
+    "id": "sourcetree",
+    "name": "Sourcetree",
+    "url": "https://sourcetreeapp.com/"
+  },
+  {
+    "id": "github",
+    "name": "GitHub",
+    "url": "https://github.com/"
+  },
+  {
+    "id": "vscodium",
+    "name": "VSCodium",
+    "url": "https://vscodium.com/"
+  }
+]

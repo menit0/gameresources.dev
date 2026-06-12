@@ -1,0 +1,27 @@
+[
+  {
+    "id": "gmtk",
+    "name": "Game Maker's Toolkit",
+    "url": "https://www.youtube.com/@GMTK"
+  },
+  {
+    "id": "extra-credits",
+    "name": "Extra Credits",
+    "url": "https://www.youtube.com/@extracredits/"
+  },
+  {
+    "id": "gdc",
+    "name": "GDC",
+    "url": "https://www.youtube.com/@GDCFestivalofGaming/"
+  },
+  {
+    "id": "brackeys",
+    "name": "Brackeys",
+    "url": "https://www.youtube.com/@Brackeys"
+  },
+  {
+    "id": "noclip",
+    "name": "/noclip",
+    "url": "https://www.youtube.com/@NoclipDocs"
+  }
+]
