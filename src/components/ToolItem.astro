@@ -6,68 +6,76 @@ const { name, url } = Astro.props;
 
 <a href={url} target="_blank">
   <div class="icon-container">
-  <ExternalLinkIcon class="link-icon" width="16" height="16"/>
-<img class="favicon" src=`https://www.google.com/s2/favicons?domain=${url}&sz=64` width="16" height="16"/>
-</div>
-{name}
+    <ExternalLinkIcon class="link-icon" width="16" height="16" />
+    <img
+      class="favicon"
+      src=`https://www.google.com/s2/favicons?domain=${url}&sz=64`
+      width="16"
+      height="16"
+      alt=`${name}'s Logo'`
+    />
+  </div>
+  {name}
 </a>
-
 
 <style>
   .icon-container {
-        position: relative; 
-        width: 16px;
-        height: 16px;
-        display: flex;
-        align-items: center;
-        justify-content: center;
-        flex-shrink: 0;
-    }
+    position: relative;
+    width: 16px;
+    height: 16px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-shrink: 0;
+  }
 
   .link-icon {
-      opacity: 0;
-      visibility: hidden;
-      color: var(--color-text-main);
-    }
+    opacity: 0;
+    visibility: hidden;
+    color: var(--color-text-main);
+  }
 
-    .favicon {
-      opacity: 1;
-      visibility: visible;
-    }
+  .favicon {
+    opacity: 1;
+    visibility: visible;
+  }
 
-    .link-icon, .favicon {
-      position: absolute;
-        top: 0;
-        left: 0;
-        width: 16px;
-        height: 16px;
-      transition: opacity 300ms, visibility 300ms;
-    }
+  .link-icon,
+  .favicon {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 16px;
+    height: 16px;
+    transition:
+      opacity 300ms,
+      visibility 300ms;
+  }
 
-    a {
-        display: flex;
-        gap: 8px;
-        align-items: center;
-        color: var(--color-text-muted);
-        text-decoration: none;
-        padding-top: 5px;
-        padding-bottom: 5px;
-        transition: all 300ms;
-        font-size: 0.9rem;
-    }
+  a {
+    display: flex;
+    gap: 8px;
+    align-items: center;
+    color: var(--color-text-muted);
+    text-decoration: none;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    transition: all 300ms;
+    font-size: 0.9rem;
+  }
 
-    a:hover {
-        color: var(--color-text-main);
-        text-decoration-line: underline;
-    }
+  a:hover {
+    color: var(--color-text-main);
+    text-decoration-line: underline;
+  }
 
-    a:hover .favicon {
-        opacity: 0;
-        visibility: hidden;
-    }
+  a:hover .favicon {
+    opacity: 0;
+    visibility: hidden;
+  }
 
-    a:hover .link-icon {
-        opacity: 1;
-        visibility: visible;
-    }    
+  a:hover .link-icon {
+    opacity: 1;
+    visibility: visible;
+  }
 </style>
