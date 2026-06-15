@@ -58,11 +58,6 @@ const code = defineCollection({
   schema: collectionSchema,
 });
 
-const media = defineCollection({
-  loader: file("src/content/data/media.json"),
-  schema: collectionSchema,
-});
-
 const jobs = defineCollection({
   loader: file("src/content/data/jobs.json"),
   schema: collectionSchema,
@@ -84,7 +79,6 @@ export const collections = {
   marketing,
   twod,
   code,
-  media,
   jobs,
   learning,
 };
