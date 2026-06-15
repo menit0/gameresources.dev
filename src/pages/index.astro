@@ -15,32 +15,23 @@ const twod = await getCollection("twod");
 const code = await getCollection("code");
 const media = await getCollection("media");
 const jobs = await getCollection("jobs");
+const learning = await getCollection("learning");
 ---
 
 <Layout>
   <div class="grid">
     <ToolSection title="Engines & Frameworks" tools={engines} />
-
+    <ToolSection title="Code" tools={code} />
+    <ToolSection title="UI" tools={ui} />
+    <ToolSection title="Backend & Multiplayer" tools={backend} />
+    <ToolSection title="Marketing & PR" tools={marketing} />
     <ToolSection title="3D" tools={threed} />
-
     <ToolSection title="Assets" tools={assets} />
     <ToolSection title="Audio" tools={audio} />
-
-    <ToolSection title="Backend & Multiplayer" tools={backend} />
-
-    <ToolSection title="UI" tools={ui} />
-
     <ToolSection title="Organization" tools={organization} />
-
-    <ToolSection title="Marketing & PR" tools={marketing} />
-
-    <ToolSection title="2D" tools={twod} />
-
-    <ToolSection title="Code" tools={code} />
-
-    <ToolSection title="Media" tools={media} />
-
     <ToolSection title="Jobs" tools={jobs} />
+    <ToolSection title="Learning" tools={learning} />
+    <ToolSection title="2D" tools={twod} />
   </div>
 </Layout>
 
