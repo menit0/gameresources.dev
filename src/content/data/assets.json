@@ -24,5 +24,17 @@
     "id": "fab",
     "name": "Fab",
     "url": "https://fab.com/"
-  }
+  },
+  {
+    "id": "unity-asset-store",
+    "name": "Unity Asset Store",
+    "url": "https://assetstore.unity.com/"
+  },
+  {
+    "id": "sonniss",
+    "name": "Sonniss",
+    "url": "https://sonniss.com"
+  },
+  { "id": "freesound", "name": "Freesound", "url": "https://freesound.org" },
+  { "id": "game-icons", "name": "Game-Icons", "url": "https://game-icons.net/" }
 ]

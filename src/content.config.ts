@@ -9,62 +9,67 @@ const collectionSchema = z.object({
 });
 
 const engines = defineCollection({
-  loader: file("src/content/engines/engines.json"),
+  loader: file("src/content/data/engines.json"),
   schema: collectionSchema,
 });
 
 const threed = defineCollection({
-  loader: file("src/content/3d/3d.json"),
+  loader: file("src/content/data/3d.json"),
   schema: collectionSchema,
 });
 
 const assets = defineCollection({
-  loader: file("src/content/assets/assets.json"),
+  loader: file("src/content/data/assets.json"),
   schema: collectionSchema,
 });
 
 const audio = defineCollection({
-  loader: file("src/content/audio/audio.json"),
+  loader: file("src/content/data/audio.json"),
   schema: collectionSchema,
 });
 
 const backend = defineCollection({
-  loader: file("src/content/backend/backend.json"),
+  loader: file("src/content/data/backend.json"),
   schema: collectionSchema,
 });
 
 const ui = defineCollection({
-  loader: file("src/content/ui/ui.json"),
+  loader: file("src/content/data/ui.json"),
   schema: collectionSchema,
 });
 
 const organization = defineCollection({
-  loader: file("src/content/organization/organization.json"),
+  loader: file("src/content/data/organization.json"),
   schema: collectionSchema,
 });
 
 const marketing = defineCollection({
-  loader: file("src/content/marketing/marketing.json"),
+  loader: file("src/content/data/marketing.json"),
   schema: collectionSchema,
 });
 
 const twod = defineCollection({
-  loader: file("src/content/2d/2d.json"),
+  loader: file("src/content/data/2d.json"),
   schema: collectionSchema,
 });
 
 const code = defineCollection({
-  loader: file("src/content/code/code.json"),
+  loader: file("src/content/data/code.json"),
   schema: collectionSchema,
 });
 
 const media = defineCollection({
-  loader: file("src/content/media/media.json"),
+  loader: file("src/content/data/media.json"),
   schema: collectionSchema,
 });
 
 const jobs = defineCollection({
-  loader: file("src/content/jobs/jobs.json"),
+  loader: file("src/content/data/jobs.json"),
+  schema: collectionSchema,
+});
+
+const learning = defineCollection({
+  loader: file("src/content/data/learning.json"),
   schema: collectionSchema,
 });
 
@@ -81,4 +86,5 @@ export const collections = {
   code,
   media,
   jobs,
+  learning,
 };

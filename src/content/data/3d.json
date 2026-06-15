@@ -39,5 +39,15 @@
     "id": "crocotile-3d",
     "name": "Crocotile 3D",
     "url": "https://www.crocotile3d.com"
+  },
+  {
+    "id": "armorpaint",
+    "name": "ArmorPaint",
+    "url": "https://www.armorpaint.org"
+  },
+  {
+    "id": "mixamo",
+    "name": "Mixamo",
+    "url": "https://www.mixamo.com"
   }
 ]

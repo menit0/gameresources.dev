@@ -1,0 +1,27 @@
+[
+  {
+    "id": "game-programming-patterns",
+    "name": "Game Programming Patterns",
+    "url": "https://gameprogrammingpatterns.com/"
+  },
+  {
+    "id": "jettelly",
+    "name": "Jettelly",
+    "url": "https://jettelly.com"
+  },
+  {
+    "id": "brackeys",
+    "name": "Brackeys",
+    "url": "https://youtube.com/@Brackeys"
+  },
+  {
+    "id": "freecodecamp",
+    "name": "freeCodeCamp",
+    "url": "https://freecodecamp.org"
+  },
+  {
+    "id": "udemy",
+    "name": "Udemy",
+    "url": "https://udemy.com"
+  }
+]

@@ -50,5 +50,15 @@
     "id": "cocos2d-x",
     "name": "Cocos2d-x",
     "url": "https://www.cocos.com/en/cocos2d-x"
+  },
+  {
+    "id": "monogame",
+    "name": "MonoGame",
+    "url": "https://monogame.net/"
+  },
+  {
+    "id": "pixijs",
+    "name": "PixiJS",
+    "url": "https://pixijs.com/"
   }
 ]

@@ -1,5 +1,4 @@
 [
-  { "id": "freesound", "name": "Freesound", "url": "https://freesound.org" },
   {
     "id": "audacity",
     "name": "Audacity",
@@ -16,8 +15,13 @@
     "url": "https://bfxr.net"
   },
   {
-    "id": "sonniss",
-    "name": "Sonniss",
-    "url": "https://sonniss.com"
+    "id": "reaper",
+    "name": "Reaper",
+    "url": "https://reaper.fm"
+  },
+  {
+    "id": "fl-studio",
+    "name": "FL Studio",
+    "url": "https://www.image-line.com"
   }
 ]
